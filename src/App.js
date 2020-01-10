@@ -17,9 +17,9 @@ function App() {
         <section className="carrousel">
           <Carousel />
         </section>
-        <section>
-          <h2>Check out my photos ✌</h2>
-        </section>
+        <ul>
+          <h3>Check out my photos ✌</h3>
+        </ul>
       </aside>
 
       <main className="main">

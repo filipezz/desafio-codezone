@@ -8,10 +8,10 @@ export default function header() {
       </div>
       <div style={{ display: "flex" }}>
         <h2>
-          <a href="#">Blog</a>
+          <a href="https://filipez.tech/">Blog</a>
         </h2>
         <h2>
-          <a href="#"> Contact</a>
+          <a href="https://filipez.tech/"> Contact</a>
         </h2>
       </div>
     </>
