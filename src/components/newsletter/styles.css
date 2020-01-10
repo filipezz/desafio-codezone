@@ -1,0 +1,48 @@
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  height: 95%;
+}
+.newsletter * {
+  margin-bottom: 0.5rem;
+}
+.newsletter div {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.newsletter input {
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  height: 35px;
+  width: 50%;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+.newsletter button {
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  height: 40px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+  margin-right: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: 0;
+}
+.newsletter button:hover {
+  background-color: white;
+  transition: 0.3s;
+}
+input::placeholder {
+  text-align: center;
+  color: #d3d3d395;
+}

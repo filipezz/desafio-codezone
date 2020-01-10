@@ -1,0 +1,27 @@
+p {
+  font-size: 0.8rem;
+  color: darkgray;
+}
+.blog-content {
+  height: 90%;
+}
+h4 {
+  font-weight: 400;
+  color: grey;
+  margin-top: 0.3rem;
+}
+.continue-reading {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.blog-post a {
+  color: #09003f;
+  text-decoration: none;
+}
+.blog-post {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}

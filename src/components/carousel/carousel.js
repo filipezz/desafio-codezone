@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
 
-import "./carrousel.css";
+import "./carousel.css";
 
 export default function Carrousel() {
   const [current, setCurrent] = useState(0);
